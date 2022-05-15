@@ -120,5 +120,5 @@
 	/* Behavior: Speed, Behavior, Combat mode, Formation */
 	,["LIMITED","SAFE","YELLOW","WEDGE"]
 	 /* (OPTIONAL) Activation condition */
-	,{ true }
+	,{ [Point, "", "> 0"] call dzn_fnc_ccPlayers }
 ]
